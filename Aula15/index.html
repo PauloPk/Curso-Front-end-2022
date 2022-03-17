@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+
+    <div class="formulario">
+        <h1>Cadastro de Programadores</h1>
+
+        <form action="" method="post">
+
+            <fieldset class="dados">
+
+                <legend> Dados Pessoais</legend>
+
+
+                <div>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" placeholder="Infome seu nome" required>
+                </div>
+
+                <div>
+                <label for="sobrenome">Sobrenome:</label>
+                <input type="text" name="sobrenome" id="sobrenome" placeholder="Informe seu sobrenome">
+                </div>
+
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Informe seu email">
+                </div>
+
+                <div>
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" name="telefone" id="telefone" placeholder="Informe seu Telefone">
+                </div>
+
+                <div>
+                    <label for="dataNacimento">Data de Nacimento</label>
+                    <input type="date" name="dataNacimento" id="dataNacimento" placeholder="Informe seu Telefone">
+                </div>
+
+                
+            </fieldset>
+
+            <fieldset class="dados">
+
+                <legend> Dados Profissionais</legend>
+                <div class="especialidade">
+                <p> Infome qual sua ecpecialidade na área de desenvolvimento</p>
+
+                <label for="esp-front">
+                    <input type="radio" name="esp-front" id="esp-front"> Front end
+                </label>
+
+                </div>
+
+                <div class="experiencia">
+                    <label for="nivelExp">Informe seu Nivel de experiência</label>
+
+                    <select name="nivelExp" id="nivelExp">
+                        <optgroup label="Nivel de Experiência">
+
+                            <option value="estagio">Estágio</option>
+                        </optgroup>
+
+                    </select>
+
+                </div>
+
+                <div class="modalidadeTrab">
+                    <label for="modalTrab">Modalidade de Trabalho</label>
+
+                    <label for="remoto">
+                        <input type="checkbox" name="remoto" id="remoto"> Remoto
+                    </label>
+                </div>
+
+                <div class="sobre">
+                    <label for="sobre">Nos conte um pouco sobre você</label>
+                    <textarea name="sobre" id="sobre" placeholder="Descreva um pouco sobre sua vida."></textarea>
+
+                </div>
+
+                
+            </fieldset>
+
+            <div>
+
+                <input type="reset" value="Limpar">
+                <input type="submit" value="Enviar">
+
+            </div>
+
+        </form>
+
+
+    </div>
+    
+</body>
+</html>
