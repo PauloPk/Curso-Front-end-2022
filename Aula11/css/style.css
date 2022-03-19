@@ -4,45 +4,163 @@
     margin: 0;
 }
 
-body {
-    display: flex;
-    flex-direction: column;
+html {
+    font-size: 16px;
+    
+    width: 100%;
+    height: 100%;
+
+    background: #F3F3F3;
 }
+
 header {
     background-color: #222222;
-    display: flex;
-    color: #f3f3f3;
-    justify-content: space-between;
-    position: center;
+    border: #222222;
+    padding: 20px;
     width: 100%;
-    height: 100px;
+    align-items: center;
+    top: center;
     
 }
 
 .container-div1 {
     margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
    
 }
 
-ul{
+nav{
     display: flex;
-    justify-content: space-around;
-    position: absolute;
-    width: 276px;
-    height: 19px;
-    left: 720px;
-    top: 40px;
-    text-decoration: none;
-            
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
 }
 
 .menu-pesquisa a{
+    color: white;
     text-decoration: none;
+}
+
+.container-post {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+main {
+    display: flex;    
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    width: 800px;
+    height: 700px;
+}
+
+.entregador {
+    position: absolute;
+    width: 590px;
+    height: 500px;
+    left: 19px;
+    top: 135px;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    
+}
+.img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 500px;
+}
+
+h2 {
+    position: absolute;
+    width: 485px;
+    height: 28px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #FC200C;
+}
+
+span {
     color: white;
 }
 
-.container{
-    display: flex;
-    border: #222222;
-    height: 50px;
+.cardapio {
+    position: absolute;
+    width: 590px;
+    height: 500px;
+    left: 514px;
+    top: 135px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    
+
 }
+h3 {
+    position: absolute;
+    width: 110.44px;
+    height: 23px;
+    left: 80px;
+    top: 80px;
+}
+ol {
+    position: absolute;
+    width: 150px;
+    height: 23px;
+    left: 60px;
+    top: 100px;
+    
+}
+.pizzaFalling {
+
+    position: absolute;
+    width: 92%;
+    height: 129px;
+    left: 279px;
+    top: 25%;
+    border-radius: 5px;
+
+}
+
+footer {
+    position: relative;
+    width: 100%;    
+    bottom: 0;
+    background: #222222;
+    box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+
+.list {
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+    
+}
+
+img {
+    left: 15px;
+}
+
+
+
+    
+    
